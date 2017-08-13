@@ -1,6 +1,6 @@
 ## Part 4 - Array Cardio Day 1
 
-console.table()`, `filter()`, `map()`, `sort()`, `reduce()`
+`console.table()`, `filter()`, `map()`, `sort()`, `reduce()`
 
 ### filter
 
