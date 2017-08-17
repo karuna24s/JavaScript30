@@ -9,11 +9,13 @@ const ranges = player.querySelectorAll('.player__slider');
 
 /* Build out functions */
 function togglePlay() {
+  // one approach where if/else conditional statement is used:
   // if(video.paused) {
   //   video.play();
   // } else {
   //   video.pause();
   // }
+  // ternary operator approach:
   const method = video.paused ? 'play' : 'pause';
   video[method]();
 }
@@ -60,11 +62,13 @@ ranges.forEach(range => range.addEventListener('mousemove', handleRangeUpdate));
 
 let mousedown = false;
 progress.addEventListener('click', scrub);
+// One way of adding an eventlisten using mousemove:
 // progress.addEventListener('mousemove', () => {
 //   if(mousedown) {
 //     scrub();
 //   }
 // });
+// Another approach:
 progress.addEventListener('mousemove', (e) => mousedown && scrub(e));
 progress.addEventListener('mousedown', () => mousedown = true);
 progress.addEventListener('mouseup', () => mousedown = false);
