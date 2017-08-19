@@ -75,5 +75,5 @@ if(pressed.join('').includes(secretCode)) {
 
 ```
 decode.innerHTML= '';
-decode.insertAdjacentHTML('afterbegin', secretCode);
+decode.insertAdjacentHTML('afterBegin', secretCode);
 ```
