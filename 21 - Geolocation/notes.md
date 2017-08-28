@@ -1,5 +1,7 @@
 ## Part 21 - Geolocation
 
+In order to open 21 - Geolocation in Terminal, change the name of the directory to 21Geolocation.
+
 ### Basic Geolocation
 
 The [`Geolocation.watchPosition()`](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/watchPosition) method is used to register a handling function that will be called automatically each time the position of the device changes. You can also, optionally, specify an error handling callback function.

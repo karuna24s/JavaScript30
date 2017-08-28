@@ -1,5 +1,7 @@
 ## Part 19 - Unreal Webcam Fun
 
+In order to open 19 - Webcam Fun in Terminal, change the name of the directory to 19WebcamFun.
+
 
 For accessing our webcam, it must be tied to *secure origin*, this means that a website is `HTTPS`, and `localhost` in our tutorial is also a secure origin. We use `npm` (`npm install` & `npm start`) to run our small server to build the page.
 

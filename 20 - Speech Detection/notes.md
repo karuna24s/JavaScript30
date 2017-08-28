@@ -1,5 +1,7 @@
 ## Part 20 - Speech Detection
 
+In order to open 20 - Speech Detection in Terminal, change the name of the directory to 20SpeechDetection.
+
 ### `SpeechRecognition`
 
 ```
