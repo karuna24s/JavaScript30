@@ -1,4 +1,4 @@
-## 26 - Stripe Follow Along Nav
+## Part 26 - Stripe Follow Along Nav
 
 ### `handleEnter()` function
 

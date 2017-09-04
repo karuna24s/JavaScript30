@@ -1,4 +1,4 @@
-# 25 - Event Capture, Propagation, Bubbling and Once
+## Part 25 - Event Capture, Propagation, Bubbling and Once
 
 `e.stopPropagation()`, `capture`, `once`
 
